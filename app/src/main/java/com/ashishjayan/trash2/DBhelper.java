@@ -88,7 +88,7 @@ public class DBhelper extends SQLiteOpenHelper {
         return db.update(TABLE_TASK,values,KEY_ID + " = ?", new String[]{String.valueOf(task.getId())});
     }
 
-    public void deleteFriend(Task task) {
+    public void deletetask(Task task) {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_TASK, KEY_ID + " = ?", new String[]{String.valueOf(task.getId())});
         db.close();

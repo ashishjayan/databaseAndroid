@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/add"
         android:icon="@drawable/add"
+=======
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_input_add"
+>>>>>>> 35b46c96d9bd37f04030b6be59d814a89f45443d
         android:title="Add"
         app:showAsAction="always" />
 </menu>
